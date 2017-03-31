@@ -5,7 +5,7 @@ const express = require('express'),
       port = process.env.PORT || 8080,
 
       middleware = require('./middleware'),
-      product = require('./lib/product');
+      product = require('./lib/product/index');
 
 app.use(middleware());
 app.get('/product/:pid', product());
