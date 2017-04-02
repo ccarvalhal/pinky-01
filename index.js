@@ -13,3 +13,6 @@ app.get('/product/:pid', product());
 app.listen(port, function() {
     console.log(`Listening on port ${port}`);
 });
+
+// For testing.
+module.exports = app;
