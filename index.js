@@ -14,5 +14,5 @@ app.listen(port, function() {
     console.log(`Listening on port ${port}`);
 });
 
-// For testing.
+// For testing purpose.
 module.exports = app;
